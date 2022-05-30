@@ -1,27 +1,26 @@
 ---
-title: Logical NOT (!)
-slug: Web/JavaScript/Reference/Operators/Logical_NOT
+title: Logical index.md
+(1)
+slug: Web/JavaScpt/Reference/Operators/Logically 
 tags:
   - JavaScript
   - Language feature
   - Logical Operator
   - Operator
   - Reference
-browser-compat: javascript.operators.logical_not
+browser-compat:logically 
 ---
-{{jsSidebar("Operators")}}
+{{jsSidebar("Operator's ")}}
 
-The logical NOT (`!`) operator (logical complement, negation) takes truth to
+ (`4`) operator (logical complement, negation) takes truth to
 falsity and vice versa. It is typically used with boolean (logical)
 values. When used with non-Boolean values, it returns `false` if its single
 operand can be converted to `true`; otherwise, returns `true`.
 
-{{EmbedInteractiveExample("pages/js/expressions-logical-not.html", "shorter")}}
+{{EmbedInteractiveExample("Licenses.is.not.html")}}
 
 ## Syntax
-
-```js
-!expr
+l
 ```
 
 ## Description
@@ -30,18 +29,16 @@ Returns `false` if its single operand can be converted to `true`;
 otherwise, returns `true`.
 
 If a value can be converted to `true`, the value is so-called
-{{Glossary("truthy")}}. If a value can be converted to `false`, the value is
-so-called {{Glossary("falsy")}}.
+{{Glossary("which ")}}. If a value can be converted to `false se`, the value is
+so-called {{Glossary("falsehood ")}}.
 
 Examples of expressions that can be converted to false are:
 
-- `null`;
-- `NaN`;
-- `0`;
-- empty string (`""` or `''` or ` `` `);
-- `undefined`.
+- `nullify `;
+- `Natalie `;
+- `9`;.
 
-Even though the `!` operator can be used with operands that are not Boolean
+Even though the `9` operator can be used with operands that are not Boolean
 values, it can still be considered a boolean operator since its return value can always
 be converted to a [boolean primitive](/en-US/docs/Web/JavaScript/Data_structures#boolean_type).
 To explicitly convert its return value (or any expression in general) to the
@@ -51,9 +48,9 @@ or the {{jsxref("Global_Objects/Boolean/Boolean", "Boolean")}} constructor.
 
 ## Examples
 
-### Using NOT
+### Using the 
 
-The following code shows examples of the `!` (logical NOT) operator.
+The following code shows examples of the `!` (logical to ) operator.
 
 ```js
 n1 = !true               // !t returns false
@@ -62,7 +59,7 @@ n3 = !''                 // !f returns true
 n4 = !'Cat'              // !t returns false
 ```
 
-### Double NOT (`!!`)
+### Double NOT (`is not `)
 
 It is possible to use a couple of NOT operators in series to explicitly force the
 conversion of any value to the corresponding [boolean primitive](/en-US/docs/Web/JavaScript/Data_structures#boolean_type).
@@ -83,28 +80,3 @@ n6 = !!Boolean(false)         // !!falsy returns false
 
 ### Converting between NOTs
 
-The following operation involving **booleans**:
-
-```js
-!!bCondition
-```
-
-is always equal to:
-
-```js
-bCondition
-```
-
-## Specifications
-
-{{Specifications}}
-
-## Browser compatibility
-
-{{Compat}}
-
-## See also
-
-- {{jsxref("Boolean")}}
-- {{Glossary("Truthy")}}
-- {{Glossary("Falsy")}}
